@@ -1,6 +1,7 @@
 name: library_generator_annotation
 description: Library generator annotations.
 version: 1.0.0
+resolution: workspace
 
 environment:
   sdk: ^3.7.0
