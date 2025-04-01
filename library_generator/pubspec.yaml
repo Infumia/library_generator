@@ -1,7 +1,6 @@
 name: library_generator
 description: Library generator.
 version: 1.0.0
-resolution: workspace
 
 environment:
   sdk: ^3.7.0
