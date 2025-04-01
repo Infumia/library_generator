@@ -1,0 +1,7 @@
+builders:
+  library_generator:
+    import: "package:library_generator/library_generator.dart"
+    builder_factories: ["libraryGenerator"]
+    build_extensions: {".dart": [".lib.dart"]}
+    auto_apply: dependents
+    build_to: source

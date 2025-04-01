@@ -1,0 +1,6 @@
+name: library_generator_annotation
+description: Library generator annotations.
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.0
