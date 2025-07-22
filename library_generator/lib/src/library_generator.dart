@@ -1,4 +1,4 @@
-import "package:analyzer/dart/element/element2.dart";
+import "package:analyzer/dart/element/element.dart";
 import "package:build/build.dart";
 import "package:glob/glob.dart";
 import "package:library_generator_annotation/library_generator_annotation.dart";
@@ -10,7 +10,7 @@ Builder libraryGenerator(BuilderOptions options) =>
 class LibraryGenerator extends GeneratorForAnnotation<Lib> {
   @override
   dynamic generateForAnnotatedElement(
-    Element2 element,
+    Element element,
     ConstantReader annotation,
     BuildStep buildStep,
   ) async {
