@@ -9,6 +9,6 @@ dependencies:
   library_generator_annotation:
     path: ../library_generator_annotation
 
-  build: ^2.4.2
-  source_gen: ^2.0.0
+  build: ^4.0.3
+  source_gen: ^4.1.1
   glob: ^2.1.3
